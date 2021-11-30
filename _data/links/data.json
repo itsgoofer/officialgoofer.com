@@ -1,21 +1,24 @@
 {
   "links": [
     {
-      "id": 5,
+      "title": "Light Gems NFT Collection",
+      "details": "More to come!",
+      "image": "https://lh3.googleusercontent.com/SJ1K8WvU8x8nfyaO6aLlQBsmOHxvP1zmyddRq24wi6Qd-leQZO2kCoKzWj5o84xM4UdeaStuQEJkVfXmZI8OrjW0DNv1lFvDTtpl6g=s130",
+      "url": "https://opensea.io/collection/the-light-gems"
+    },
+    {
       "title": "Fumes - Album",
       "details": "New lo-fi Album",
       "image": "https://www.dropbox.com/s/vke8sxdxt1s2792/Fumes.jpg?raw=1",
       "url": "https://ffm.to/fumes"
     },
     {
-      "id": 1,
       "title": "Check out my latest interview!",
       "details": "On electrowow.com",
       "image": "https://www.dropbox.com/s/qmhm27o6mljubye/link_thumb.png?raw=1",
       "url": "https://www.electrowow.net/goofer-discusses-the-making-of-his-single-into-the-void-interview"
     },
     {
-      "id": 2,
       "title": "Article about Into the Void",
       "details": "On electrowow.com",
       "image": "https://www.dropbox.com/s/qmhm27o6mljubye/link_thumb.png?raw=1",
@@ -29,7 +32,6 @@
       "url": "https://goofer.fanlink.to/void"
     },
     {
-      "id": 4,
       "title": "Projections - Single",
       "details": "Stream/Buy",
       "image": "https://www.dropbox.com/s/ktub31lvux6761h/607be29f2ddc82_25181819.jpg?raw=1",

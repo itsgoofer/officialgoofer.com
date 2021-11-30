@@ -1,18 +1,20 @@
 .links-header
 	margin-bottom: -150px
 	@media (max-width: 990px)
-		margin-bottom: -60px
+		// margin-bottom: -60px
 	@media (max-width: 480px)
-		margin-bottom: -90px
+		// margin-bottom: -90px
 
 .cover
 	height: 400px
 	background-size: cover
 	background-position: center center
+	filter: blur(4px)
+  -webkit-filter: blur(4px)
 	@media (max-width: 990px)
-		height: 200px
+		// height: 200px
 	@media (max-width: 768px)
-		height: 125px
+		// height: 150px
 
 .profile-card
 	max-width: 1000px
@@ -21,11 +23,17 @@
 	position: relative
 	top: -180px
 	margin: 0 auto
+	background: url('/assets/images/card.jpg') center 
+	background-size: cover
+	background-color: rgba(black, 0.8)
+	border-radius: 6px
+	
 	@media (max-width: 990px)
-		top: 0
-		background-color: transparent
+		// top: 0
+		// background-color: transparent
+		margin: 0 30px
 	@media (max-width: 480px)
-		top: 15px
+		// top: 15px
 
 	.avatar
 		width: 200px
@@ -37,6 +45,8 @@
 		position: relative
 		top: -75px
 		margin: 0 auto
+		box-shadow: 0 0 9px 3px #00000069
+		transform: scaleX(-1)
 
 		@media (max-width: 990px)
 			width: 150px
@@ -60,6 +70,7 @@
 		.bio
 			margin-bottom: 20px
 			text-align: center
+			font-size: 16px
 
 		.social-links
 			text-align: center
