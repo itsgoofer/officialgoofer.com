@@ -1,0 +1,45 @@
+{
+  "links": [
+    {
+      "id": 5,
+      "title": "Fumes - Album",
+      "details": "New lo-fi Album",
+      "image": "https://www.dropbox.com/s/vke8sxdxt1s2792/Fumes.jpg?raw=1",
+      "url": "https://ffm.to/fumes"
+    },
+    {
+      "id": 1,
+      "title": "Check out my latest interview!",
+      "details": "On electrowow.com",
+      "image": "https://www.dropbox.com/s/qmhm27o6mljubye/link_thumb.png?raw=1",
+      "url": "https://www.electrowow.net/goofer-discusses-the-making-of-his-single-into-the-void-interview"
+    },
+    {
+      "id": 2,
+      "title": "Article about Into the Void",
+      "details": "On electrowow.com",
+      "image": "https://www.dropbox.com/s/qmhm27o6mljubye/link_thumb.png?raw=1",
+      "url": "https://www.electrowow.net/goofer-brings-you-into-a-futuristic-journey-with-this-electro-house-gem"
+    },
+    {
+      "id": 3,
+      "title": "Into the Void - Single",
+      "details": "Stream/Buy",
+      "image": "https://www.dropbox.com/s/ebdwac9gwy77u6g/intothevoid.jpg?raw=1",
+      "url": "https://goofer.fanlink.to/void"
+    },
+    {
+      "id": 4,
+      "title": "Projections - Single",
+      "details": "Stream/Buy",
+      "image": "https://www.dropbox.com/s/ktub31lvux6761h/607be29f2ddc82_25181819.jpg?raw=1",
+      "url": "https://fanlink.to/goofer-projections"
+    },
+    {
+      "title": "The Storm - Single",
+      "details": "Stream/Buy",
+      "image": "https://www.dropbox.com/s/yz7ypnz8rmy8lwj/thestorm.jpg?raw=1",
+      "url": "https://ffm.to/1n6nbew"
+    }
+  ]
+}

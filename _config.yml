@@ -1,0 +1,20 @@
+title: Goofer
+email: me@officialgoofer.com
+description: >- 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" 
+url: "https://officialgoofer.com"
+twitter_username: officialgoofer
+destination: public
+source: ./
+exclude: ['node_modules']
+
+
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+  sass_dir: _sass

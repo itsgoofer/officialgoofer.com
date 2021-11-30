@@ -1,0 +1,20 @@
+{
+  "header": {
+    "header_image": "https://www.dropbox.com/s/flo8wmrqgfzrslj/resized.jpg?raw=1",
+    "rounded_image": "https://www.dropbox.com/s/8xvvwmc88qx0nkq/333.jpg?raw=1",
+    "social_links": [
+      {
+        "youtubeurl": "https://youtube.com/goofer"
+      },
+      {
+        "instagramurl": "https://instagram.com/officialgoofer"
+      },
+      {
+        "soundcloudurl": "https://soundcloud.com/official_goofer"
+      },
+      {
+        "twitterurl": "https://twitter.com/officialgoofer"
+      }
+    ]
+  }
+}

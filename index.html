@@ -1,0 +1,17 @@
+---
+layout: links_page
+title: Links
+---
+
+{% include links_header.html %}
+
+<div class="links">
+
+	<div class="link-list">
+		{%- for item in site.data.links.data.links -%}
+			{% include link_item.html title=item.title description=item.details image=item.image url=item.url %}
+		{%- endfor -%}
+	</div>
+</div>
+
+

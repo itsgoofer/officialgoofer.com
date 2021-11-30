@@ -1,0 +1,68 @@
+.link-item
+	margin-bottom: 20px
+	display: block
+	cursor: pointer
+
+.link-item .link-wrapper:after
+	content: ""
+	clear: both
+	display: table
+
+.link-item .link-wrapper
+	display: block
+	height: 80px
+	border-radius: 4px
+	padding: 0 10px
+	margin-left: 10px
+	background-color: #333
+	color: white
+	position: relative
+	transition: all 250ms ease
+	&:hover
+		background-color: #2f2f2f
+		.artwork
+			padding-top: 5px
+
+
+	& > .artwork
+		transition: all 250ms ease
+		width: 60px
+		height: 60px
+		padding: 10px 0
+		overflow: hidden
+		float: left
+		border-radius: 4px
+		position: relative
+		left: -20px
+		@media (max-width: 480px)
+			left: -30px
+
+		& > img
+			width: 100%
+
+	& > .details
+		padding: 15px 0px 0px 0px
+		float: left
+		@media (max-width: 480px)
+			position: relative
+			left: -15px
+
+		& > .title
+			color: #f2f2f2
+			word-wrap: break-word
+			font-size: 15px
+
+		& > .details
+			color: #999
+			font-size: 14px
+			padding: 2px 0
+
+@keyframes beacon
+	0%
+		opacity: 1
+		transform: scale(0)
+	50%
+		opacity: 0.3
+	100%
+		transform: scale(1.5)
+		opacity: 0

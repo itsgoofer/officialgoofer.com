@@ -1,0 +1,91 @@
+.links-header
+	margin-bottom: -150px
+	@media (max-width: 990px)
+		margin-bottom: -60px
+	@media (max-width: 480px)
+		margin-bottom: -90px
+
+.cover
+	height: 400px
+	background-size: cover
+	background-position: center center
+	@media (max-width: 990px)
+		height: 200px
+	@media (max-width: 768px)
+		height: 125px
+
+.profile-card
+	max-width: 1000px
+	height: 340px
+	background-color: #333
+	position: relative
+	top: -180px
+	margin: 0 auto
+	@media (max-width: 990px)
+		top: 0
+		background-color: transparent
+	@media (max-width: 480px)
+		top: 15px
+
+	.avatar
+		width: 200px
+		height: 200px
+		overflow: hidden
+		border-radius: 100%
+		background-size: cover
+		background-position: center center
+		position: relative
+		top: -75px
+		margin: 0 auto
+
+		@media (max-width: 990px)
+			width: 150px
+			height: 150px
+		@media (max-width: 480px)
+			width: 120px
+			height: 120px
+
+	.profile-content
+		margin: 0 auto
+		position: relative
+		top: -65px
+
+		.name
+			font-size: 30px
+			color: white
+			text-align: center
+			font-weight: 600
+			margin-bottom: 3px
+
+		.bio
+			margin-bottom: 20px
+			text-align: center
+
+		.social-links
+			text-align: center
+			margin-bottom: 10px
+			position: relative
+
+			& > a
+				position: absolute
+				left: 0
+				right: 0
+				top: 0
+				bottom: 0
+
+		.social-icons
+			text-align: center
+
+			& > .social-icon-item
+				overflow: hidden
+				width: 41px
+				height: 41px
+				background-color: #242424
+				display: inline-block
+				border-radius: 100%
+				margin: 0 5px
+				&:hover
+					background-color: #111
+
+				& > img
+					width: 100%
