@@ -9,7 +9,7 @@ url: "https://officialgoofer.com"
 twitter_username: officialgoofer
 destination: public
 source: ./
-exclude: ['node_modules']
+exclude: ['node_modules', 'package-lock.json', 'package.json', 'webpack.config.js', 'yarn.lock']
 
 
 plugins:
